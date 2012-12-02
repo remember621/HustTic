@@ -1,0 +1,31 @@
+<?php
+echo $this->doctype();
+?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<?php echo $this->headMeta() ?>
+<?php echo $this->headTitle() ?>  
+
+</head>
+
+<body id="l">
+	<div id="lheader">
+		<?php echo $this->render('header.phtml');?>
+	</div>
+    <div id="lmain">
+        <div class="warp_body">
+            <div class="left_body">
+            	<?php echo $this->render('menu_user.phtml');?>
+            </div>
+            <div class="right_body">
+            	<?php echo $this->layout()->content; ?>
+            </div>
+            
+        </div>    
+    	
+    </div>
+    <div id="lfooter">
+  	 	<?php echo $this->render('footer.phtml'); ?> 
+    </div>
+</body>
+</html>
