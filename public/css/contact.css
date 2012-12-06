@@ -91,7 +91,7 @@
 #comment{
 	position:relative;
 	width:770px;
-	height:auto;
+	height:250px;
 	background:#F7F7F7;
 	margin-top:40px;
 	margin-left:3px;
@@ -116,7 +116,7 @@
 	background-image:url(../images/contact/talk_ico.png);
 	background-position:right;
 	background-repeat:no-repeat;
-	width:400px;
+	width:430px;
 	height:47px;
 }
 .talk_ico span{
@@ -150,8 +150,9 @@
 	background-repeat:no-repeat;
 	width:102px;
 	height:31px;
-	margin-right:30px;
 	border:0;
+	margin-right: 22px;
+	margin-top: 20px;
 }
 .btn-submit-act{
 	float:right;
@@ -171,4 +172,7 @@
 	width:102px;
 	height:31px;
 	margin-right:30px;
+}
+.public{
+	float:left;
 }

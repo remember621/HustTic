@@ -41,6 +41,7 @@
       <!-- end of tabs -->
       <div id="illustrat"></div>
     </div>
+   
     <!-- end of header -->
     <div id="content1"> <a href="#"><img id="changebj" src="images/changebj.png"/></a> <img id="bj" src="images/contact/bj.jpg"/> </div>
     <!-- end of content1 -->
@@ -97,7 +98,7 @@
                 </ul>   			
           </div>
           <div id="comment">
-            <div class="paper_ico"><span>你的留言会出现在上面的【最新留言板块】板块，欢迎给我们意见和建议！</span></div>            
+            <div class="paper_ico"> <span>你的留言会出现在上面的【最新留言板块】板块，欢迎给我们意见和建议！</span></div>            
             <div class="edit">
             	<form name="form" action="addContact" method="post">
 					<s:textarea id="msgText" name="content"></s:textarea>
@@ -107,6 +108,7 @@
 					<input type="submit" style="display:none;"/>
                     <input type="button" title="创建帐号" onclick="regist();" onblur="this.className='btn-submit'" onfocus="this.className='btn-submit-act'" class="btn-submit" name="创建账号"/>
 				</form>
+                
                 <div class="talk_ico"><span>俱乐部论坛：<a href="http://www.husttic.net">http://www.husttic.net</a> 欢迎登陆我们的论坛做进一步的交流</span></div>
              </div>
           </div>
