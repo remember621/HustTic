@@ -12,6 +12,10 @@ class IndexController extends MY_Controller
     	
     }
     
+    public function addAction()
+    {
+    	
+    }
 
 }
 
