@@ -1,5 +1,5 @@
 <?php
-class IndexController extends MY_Controller
+class IntroduceController extends MY_Controller
 {
 
 	public function init()
@@ -11,8 +11,7 @@ class IndexController extends MY_Controller
     {
     	
     }
-
-
+    
 }
 
 
