@@ -9,6 +9,7 @@ demos/
 extras/documentation
 library/Zend
 public/front_reference
+nbproject/
 .*
 !.htaccess
 !.git*
