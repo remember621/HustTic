@@ -9,6 +9,7 @@ demos/
 extras/documentation
 library/Zend
 public/front_reference
+nbproject/
 .*
 !.htaccess
 !.git*
@@ -178,3 +179,4 @@ pip-log.txt
 # Mac crap
 .DS_Store
 
+/nbproject/private/

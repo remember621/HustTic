@@ -46,12 +46,14 @@
 	margin-left:70px;
 	margin-top:10px;
 }
+
 #patch1 .b_left{
 	float:left;
 }
 #patch1 .b_right{
 	float:right;
 }
+
 #patch1 h2{
 	font-family:"微软雅黑";
 	font-size:14px;
